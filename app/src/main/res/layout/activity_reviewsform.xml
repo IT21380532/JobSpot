@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".reviewsform"
+    android:background="@drawable/back">
+
+
+
+    <TextView
+        android:id="@+id/update_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/review_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Rid"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/review_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rating"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/review_com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/feed"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit2"
+        android:id="@+id/re_btn"
+        android:textColor="@color/white"
+        android:background="@drawable/buttoncolour"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to reviews dashboard"
+        android:id="@+id/ko_btn"
+        android:textColor="@color/white"
+        android:background="@drawable/buttoncolour"/>
+
+
+</LinearLayout>

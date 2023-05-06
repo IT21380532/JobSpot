@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Add"
+    android:background="@drawable/back">
+
+
+
+    <TextView
+        android:id="@+id/update_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topic2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/job_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tit"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/job_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sal"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/job_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job/Task Description:"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/job_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/add_btn"
+        android:textColor="@color/white"
+        android:background="@drawable/buttoncolour"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to job/task Dashboard"
+        android:id="@+id/back_btn"
+        android:textColor="@color/white"
+        android:background="@drawable/buttoncolour"/>
+
+
+
+
+
+</LinearLayout>

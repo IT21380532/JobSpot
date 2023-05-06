@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UpdateForm</string>
+    <string name="Id">Job ID</string>
+    <string name="title">Job Title</string>
+    <string name="salary">Salary</string>
+    <string name="des">Description</string>
+
+    <string name="job">Job ID:R002\nJob Title:Hotel Cooking\nSalary:Rs 30000/=\nDescription:A Cook plans, prepares, and cooks food items to ensure the highest quality service and experience for customers. They help keep the kitchen organized and running efficiently.\nCustomer Feedback:I found the class very fun and informative!\n I loved learning about the products we used and the products we are making! \nIt made it easy to know I can do it from home.\n I really enjoyed the bread making techniques and the tips as we went along.\n It was definatly worth the money!It was wonderful to take so much away from it! I would just like to have seen the pictures on line,and I know that wasn’t anyones fault. \nI give it 4 STAR OUT OF 5!\n \n\nRatings:</string>
+    <string name="topic">Job Or Task Description </string>
+    <string name="topic2">Jobs And Tasks Adding Form</string>
+    <string name="submit">Confirm and Add</string>
+    <string name="review">Manage Reviews Form</string>
+    <string name="job2">Job And Task Details Updating Form</string>
+    <string name="submit3">Confirm And Update</string>
+    <string name="id">Job/Task Code:</string>
+    <string name="tit">Job/Task Title:</string>
+    <string name="sal">Job/Task Salary:</string>
+    <string name="desc">Job/Task Description:</string>
+    <string name="date">Job/Task Adding Date:</string>
+    <string name="submit2">Submit</string>
+    <string name="Rid">Review ID:</string>
+    <string name="rating">Customer Ratings:</string>
+    <string name="feed">Customer new Feedback:</string>
+
+
+    <string name="task">Manage Tasks</string>
+    <string name="top">Manage Jobs</string>
+    <string name="add">Add Jobs</string>
+    <string name="comment">Manage Reviews</string>
+    <string name="welcome">Welcome to Admin Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
