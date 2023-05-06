@@ -58,6 +58,13 @@
     <!--Read form-->
     <string name="read_supplier">JobID</string>
     <string name="read_title"><b><u>Read Supplier</u></b></string>
+    <string name="read_supplierID"><b>SupplierID</b></string>
+    <string name="read_supplierName"><b>Supplier Name</b></string>
+    <string name="read_jobtitle"><b>Job Title</b></string>
+    <string name="read_jobID"><b>Job ID</b></string>
+    <string name="read_jobDesc"><b>Job Description</b></string>
+    <string name="read_sjobSalary"><b>Salary</b></string>
+    <string name="read_contact"><b>Supplier Contact</b></string>
 
     <!--Supplier Dashboard-->
     <string name="supplier_dashboard_heading">Supplier Dashboard</string>

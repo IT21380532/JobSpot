@@ -48,13 +48,13 @@ class activity_readsupplies : AppCompatActivity() {
                 Toast.makeText(this,"Data read successfully",Toast.LENGTH_SHORT).show()
                 binding.edtJobid.text.clear()
 
-                binding.tvSupplierID.text = "SupplierID : "+supplierID.toString()
-                binding.tvSupplierName.text = "Supplier Name : "+jobSupplierName.toString()
-                binding.tvJobTitle.text = "Job Title : "+jobTitle.toString()
-                binding.tvJobID.text = "Job ID : "+jobID.toString()
-                binding.tvJobDesc.text = "Job Description : "+jobDescription.toString()
-                binding.tvJobSalary.text = "Job Salary : "+jobSalary.toString()
-                binding.tvContact.text = "Supplier Contact : "+supplierContact.toString()
+                binding.tvSupplierID.text = supplierID.toString()
+                binding.tvSupplierName.text = jobSupplierName.toString()
+                binding.tvJobTitle.text = jobTitle.toString()
+                binding.tvJobID.text = jobID.toString()
+                binding.tvJobDesc.text = jobDescription.toString()
+                binding.tvJobSalary.text = jobSalary.toString()
+                binding.tvContact.text = supplierContact.toString()
 
             }
             else{

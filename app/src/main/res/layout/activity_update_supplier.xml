@@ -24,7 +24,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/read_supplier"
+        android:hint="@string/read_supplier"
         android:textAlignment="center"
         android:textSize="18sp" />
 
@@ -35,7 +35,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/update_supplierID"
+        android:hint="@string/update_supplierID"
         android:textSize="18sp" />
 
     <EditText
@@ -45,7 +45,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/update_supplierName"
+        android:hint="@string/update_supplierName"
         android:textSize="18sp" />
 
     <EditText
@@ -55,7 +55,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/update_jobtitle" />
+        android:hint="@string/update_jobtitle" />
 
     <EditText
         android:id="@+id/editJobDescription"
@@ -64,7 +64,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/update_desc" />
+        android:hint="@string/update_desc" />
 
     <EditText
         android:id="@+id/editJobSalary"
@@ -73,7 +73,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/update_salary" />
+        android:hint="@string/update_salary" />
 
     <EditText
         android:id="@+id/editSupplierContact"
@@ -82,7 +82,7 @@
         android:layout_margin="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/update_contact" />
+        android:hint="@string/update_contact" />
 
     <Button
         android:id="@+id/btn_update"
