@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".activity_readsupplies">
+
+    <TextView
+        android:id="@+id/read_supplier"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/read_title"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_jobid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Job ID"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_readSupply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="READ DATA" />
+
+    <TextView
+        android:id="@+id/tv_supplierID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="SupplierID"/>
+
+    <TextView
+        android:id="@+id/tv_supplierName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Supplier Name" />
+
+    <TextView
+        android:id="@+id/tv_jobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job Title" />
+
+    <TextView
+        android:id="@+id/tv_jobID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job ID" />
+
+    <TextView
+        android:id="@+id/tv_jobDesc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job Description" />
+
+    <TextView
+        android:id="@+id/tv_jobSalary"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Job Salary" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:text="Supplier Contact" />
+</LinearLayout>
